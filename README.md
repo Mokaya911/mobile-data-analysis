@@ -1,24 +1,28 @@
-# mobile-data-analysis
-Mobile Data Analysis
-Overview
-This project analyzes mobile phone specifications (RAM, camera, price) to segment devices into customer groups using KMeans clustering, supporting business intelligence for market strategies.
-Technologies
+# 📱 Mobile Data Analysis
 
-Python (pandas, sklearn, Matplotlib, seaborn)
-Clustering and Data Visualization
+This project analyzes mobile internet usage data to uncover trends in consumption, cost, and user behavior.
 
-How to Run
+---
 
-Clone the repository: git clone https://github.com/Mokaya911/mobile-data-analysis.git
-Install dependencies: pip install pandas sklearn matplotlib seaborn
-Update file path to Mobiles Dataset (2025).csv in mobiledata.ipynb.
-Run: jupyter notebook mobiledata.ipynb
+## 🔍 Objectives
 
-Results
+- Analyze data usage trends over time
+- Identify high-usage customers
+- Calculate average costs and usage metrics
+- Visualize usage behavior
 
-Identified 3 customer segments based on price and features.
-Visualized price vs. battery capacity by cluster (see /images/price_vs_battery.png).
+---
 
-Business Impact
-Supports targeted marketing by identifying customer preferences for mobile features.
-Screenshots
+## 🧠 Key Features
+
+- Cleaned and prepared mobile usage data
+- Used Pandas and Seaborn for analysis
+- Identified top data consumers
+- Usage trends over days and months
+
+---
+
+## 🛠 Tech Stack
+
+- Python (Pandas, Seaborn, Matplotlib)
+- Jupyter Notebook
